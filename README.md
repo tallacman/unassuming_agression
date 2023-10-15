@@ -1,5 +1,4 @@
 # Tallacmans Basic Bedrock Theme Package for Concrete CMS v9
-## Please note that due to a career change, I am no longer maintaining this repo.
 
 - [Basic Bedrock Theme Package for Concrete CMS v9](#basic-bedrock-theme-package-for-concrete-cms-v9)
   - [Concrete CMS Bedrock Documentation](#concrete-cms-bedrock-documentation)
@@ -21,7 +20,7 @@
 
 Using documentation from link above, I wanted to have a package ready to use for quick theme building for [Concrete CMS](https://www.concretecms.com/). Please feel free to add suggestions or pull requests.  
 
-This package will automatically install the thumbnails for Bootstrap5 so there is no manaul setup of these needed in the Dashboard.
+This package will automatically install the thumbnails for Bootstrap5 so there is no manual setup of these needed in the Dashboard.
 
 JS and CSS are setup as assets in the package controller and required in the page_theme.php.
 
@@ -40,10 +39,10 @@ JS and CSS are setup as assets in the package controller and required in the pag
     ./install.sh
     ```
     Everything should be moved to their correct places and the repository directory should be removed now.
-    You should be able to install the package / theme and go to your **basic_bedrock_build** folder and run **npm install** then **npm run prod**.
+    You should be able to install the package/theme and go to your **basic_bedrock_build** folder and run **npm install** then **npm run prod**.
 2. **Powershell Installation**
    
-   If using a Windows, open Powershell and navigate to the public folder for Concrete CMS.  This folder contains the following: **application, concrete, packages, updates, index.php**.  Then run the following commands:  
+   If using Windows, open Powershell and navigate to the public folder for Concrete CMS.  This folder contains the following: **application, concrete, packages, updates, index.php**.  Then run the following commands:  
     ```powershell
     git clone https://github.com/davedew/afixia-theme-basic-bedrock.git
     
@@ -58,7 +57,7 @@ JS and CSS are setup as assets in the package controller and required in the pag
     Remove-Item -LiteralPath "afixia-theme-basic-bedrock" -Force -Recurse
     ```
     Everything should be moved to their correct places and the repository directory should be removed now.
-    You should be able to install the package / theme and go to your **basic_bedrock_build** folder and run **npm install** then **npm run prod**.
+    You should be able to install the package/theme and go to your **basic_bedrock_build** folder and run **npm install** then **npm run prod**.
 3. **Command Prompt (CMD) Installation**
    
    If using a Windows, open Command Prompt (CMD) and navigate to the public folder for Concrete CMS.  This folder contains the following: **application, concrete, packages, updates, index.php**.  Then run the following commands:  
